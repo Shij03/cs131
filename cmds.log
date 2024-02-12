@@ -49,3 +49,37 @@
    49  cd cs131/Worksheet1
    50  wget www.github.com
    51  history > cmds.log
+   52  git init
+   53  git add cmds.log
+   54  git commit
+   55  git config --global user.email "justin.shi@sjsu.edu"
+   56  git config --global user.email "justinshi00@gmail.com"
+   57  git config --global user.name "Justin"
+   58  wget www.github.com
+   59  history > cmds.log
+   60  cd cs131/Worksheet1
+   61  git init
+   62  git add cmds.log
+   63  git commit -m "cmds.log"
+   64  git remote add origin https://github.com/Shij03/cs131.git
+   65  git push -u origin master
+   66  cd ~
+   67  ls
+   68  rm cmds.logs
+   69  cat cmds.log
+   70  rmdir cmds.log
+   71  rm cmds.log
+   72  ls
+   73  cd cs131
+   74  ls
+   75  cat Worksheet1
+   76  cd Worksheet1
+   77  ls
+   78  cat cmds.log
+   79  rm cmds.log
+   80  wget www.github.com
+   81  git clone https://github.com/Shij03/cs131.git
+   82  cd cs131
+   83  mkdir Worksheet1
+   84  cd Worksheet1
+   85  history > cmds.log
