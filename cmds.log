@@ -1,0 +1,51 @@
+    1  pwd
+    2  passwd
+    3  cd ~/.ssh && ssh-keygen
+    4  mkdir ~/.ssh
+    5  cd ~/.ssh && ssh-keygen
+    6  cat id_rsa.pub
+    7  cd ~/.ssh && ssh-keygen
+    8  clear
+    9  cd
+   10  clear
+   11  cd ~/.ssh && ssh-keygen
+   12  cat id_rsa.pub
+   13  cd ~/.ssh && ssh-keygen
+   14  clear
+   15  ls
+   16  mkdir class1
+   17  ls
+   18  rmdir class1
+   19  ls
+   20  vi sample.txt
+   21  cat smaple.txt
+   22  vi sample.txt
+   23  cat sample.txt 
+   24  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   25  ls
+   26  clear
+   27  vi spotify-2023.csv 
+   28  vi spotify-2023.csv 
+   29  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   30  ls
+   31  rm spotify-2023.csv.1
+   32  ls
+   33  clear
+   34  cd /.ssh
+   35  ls
+   36  pwd
+   37  cd ~/.ssh
+   38  pwd
+   39  ssh-keygen
+   40  cat id_rsa.pub
+   41  clear
+   42  git clone https://github.com/Shij03/cs131.git
+   43  cd cs131
+   44  mkdir Worksheet1
+   45  cd Worksheet1
+   46  quit
+   47  :q
+   48  clear
+   49  cd cs131/Worksheet1
+   50  wget www.github.com
+   51  history > cmds.log
