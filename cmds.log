@@ -83,3 +83,40 @@
    83  mkdir Worksheet1
    84  cd Worksheet1
    85  history > cmds.log
+   86  git add cmds.log
+   87  git commit -m "cmds log"
+   88  git push origin main
+   89  git branch
+   90  git push origin master
+   91  git credential reject
+   92  git add cmds.log
+   93  git commit
+   94  git commit -m "cmds log"
+   95  git add cmds.log
+   96  git commit -m "cmds log"
+   97  git add
+   98  git add cmds.log
+   99  git commit -m "command history"
+  100  wget www.github.com
+  101  git add cmds.log
+  102  cd cs131/Worksheet1
+  103  git add cmds.log
+  104  git commit -m "command history"
+  105  ls
+  106  rm -a
+  107  rm cmds.log
+  108  rm index.hmtl
+  109  rm index.html
+  110  ls
+  111  cd
+  112  cd cs131
+  113  ls
+  114  cd
+  115  ls
+  116  rm index.html
+  117  rm index.html.2
+  118  rm index.html.1
+  119  ls
+  120  wget www.github.com
+  121  cd cs131/Worksheet1
+  122  history > cmds.log
