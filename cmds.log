@@ -120,3 +120,169 @@
   120  wget www.github.com
   121  cd cs131/Worksheet1
   122  history > cmds.log
+  123  git add cmds.log
+  124  git commit -m "history command"
+  125  git push origin main
+  126  git branch
+  127  git push origin master
+  128  git remote show origin
+  129  git checkout main
+  130  git checkout master
+  131  git branch -r
+  132  git branch -m master main
+  133  git push -u origin main
+  134  git commit -m "history command"
+  135  git push origin main
+  136  ls
+  137  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  138  ls
+  139  cd cs131
+  140  mkdir Worksheet2
+  141  ls
+  142  grep "United States" "Global YouTube Statistics.csv" > Worksheet2/US_Youtubers.txt
+  143  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  144  grep "United States" "Global YouTube Statistics.csv" > Worksheet2/US_Youtubers.txt
+  145  grep "Music" "Global YouTube Statistics.csv" > Worksheet2/Music.txt
+  146  wc -l < Worksheet2/Music.txt > Worksheet2/counts.txt
+  147  wc -w < Worksheet2/Music.txt >> Worksheet2/counts.txt
+  148  vi Worksheet2/counts.txt
+  149  history > Worksheet2/cmds.log
+  150  cd Worksheet2
+  151  git init
+  152  git add counts.txt cmds.log
+  153  git commit -m "count and cmd log"
+  154  git remote add origin https://github.com/Shij03/cs131.git
+  155  git push -u origin main
+  156  git push -u origin master
+  157  git init
+  158  git add counts.txt cmds.log
+  159  git commit -m "count and cmd log"
+  160  git remote add origin https://github.com/Shij03/cs131.git
+  161  git push -u origin main
+  162  git branch
+  163  git branch -m main
+  164  git remote set-url origin https://github.com/Shij03/cs131.git
+  165  git push -u origin main
+  166  git remote -v
+  167  git clone Username for 'https://github.com': Shij03
+  168  Password for 'https://Shij03@github.com': 
+  169  remote: Permission to Shij03/cs131.git denied to Shij03.
+  170  git init
+  171  gi add counts.txt cmds.log
+  172  git add counts.txt cmds.log
+  173  git commit -m "count and cmd file"
+  174  git push
+  175  git push --set-upstream origin main
+  176  git push -u origin master
+  177  clear
+  178  ls
+  179  git init
+  180  git add counts.txt cmds.log
+  181  git commit -m "count and cmd file"
+  182  git remote add origin https://github.com/Shij03/cs131.git
+  183  git push -u origin main
+  184  git remote set-url origin https://Shij03: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@github.com/Shij03/cs131.git
+  185  git push
+  186  git push --set-upstream origin main
+  187  git pull origin main
+  188  git push
+  189  cd cs131/Worksheet2
+  190  ls
+  191  cp /counts.txt ~/justinshi/Documents
+  192  cp Worksheet2/counts.txt ~/justinshi/Documents
+  193  cp Worksheet2 ~/justinshi/Documents
+  194  cd cs131
+  195  cd
+  196  cd cs131
+  197  cp Worksheet2 ~/justinshi/Documents
+  198  cp -r Worksheet2 ~/justinshi/Documents
+  199  git --version
+  200  git remote -v
+  201  cd cs131
+  202  git remote -v
+  203  ls
+  204  cd cs131
+  205  ls
+  206  ls Worksheet2
+  207  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  208  git commit -m "count and cmd file"
+  209  git push
+  210  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  211  git status
+  212  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  213  git commit -m "count and cmd file"
+  214  cd Worksheet2
+  215  ls
+  216  cat counts.txt
+  217  cat cmds.log
+  218  ls
+  219  cd
+  220  cd cs131
+  221  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  222  git commit -m "count and cmds file"
+  223  git add Worksheet2/counts.txt
+  224  git commit -m "count and cmds file"
+  225  cd Worksheet2
+  226  git add counts.txt cmds.log
+  227  git commit -m "count and cmds file"
+  228  cd cs131
+  229  cd
+  230  cd cs131
+  231  git reset
+  232  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  233  git status
+  234  cd Worksheet2
+  235  ls
+  236  rm cmds.log
+  237  rm counts.txt
+  238  ls
+  239  rm *
+  240  ls
+  241  cd cs131
+  242  ls
+  243  grep "United States" "Global YouTube Statistics.csv" > US_YouTube.txt
+  244  grep "Music" "Global YouTube Statistics.csv" > Music.txt
+  245  wc -l Music.txt > counts.txt
+  246  wc -w Music.txt >> counts.txt
+  247  vi counts.txt
+  248  history > cmds.log
+  249  mv counts.txt cmds.log Worksheet2
+  250  ls Worksheet2
+  251  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  252  git commit -m "count and cmds file"
+  253  git push
+  254  cd Worksheet2
+  255  git add counts.txt cmds.log
+  256  git commit -m "count and cmds file"
+  257  git push
+  258  git push -u origin main
+  259  git push -u origin master
+  260  git push -u origin main
+  261  git push --set-upstream origin main
+  262  cd 
+  263  cd cs131
+  264  git fetch
+  265  git merge origin/main
+  266  git push
+  267  git merge origin/main
+  268  cd Worksheet2
+  269  git push
+  270  git fetch
+  271  git push
+  272  ls cs131
+  273  cd /
+  274  cd cs131
+  275  cd
+  276  cd cs131
+  277  ls
+  278  ls cmds.log
+  279  cat cmds.log
+  280  cd
+  281  cd cs131
+  282  cp cs131/Worksheet2/counts.txt cs131
+  283  ls
+  284  wc -l Music.txt > counts.txt
+  285  wc -w Music.txt >> counts.txt
+  286  vi countx.txt
+  287  vi counts.txt
+  288  history > cmds.log
