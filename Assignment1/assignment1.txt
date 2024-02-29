@@ -1,7 +1,18 @@
-/bin/bash
-/mnt/scratch/SP24_CS131_Jyotika/justinsp24
-uid=1201(justinsp24) gid=1201(justinsp24) groups=1201(justinsp24),78(S78)
-              total        used        free      shared  buff/cache   available
-Mem:          71367       32322       19909        3545       19135       34041
-Swap:          4119           0        4119
-lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+2. /bin/bash -- command used was $SHELL
+
+2. /mnt/scratch/SP24_CS131_Jyotika/justinsp24 -- command used was $HOME
+
+3. uid=1201(justinsp24) gid=1201(justinsp24) groups=1201(justinsp24),78(S78) -- my UID is 1201, I belong to group 1201. I used command id
+
+4. Yes, I can cd into the directory, I can also ls the directory. I cannot create any files under this directory.
+
+6. touch myDir2/myFile.txt
+
+6. mv myDir2/myFile.txt myDir3
+
+6. Amount of memory: 71367
+
+9. lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+9. This information is under the file os-release
+
+10. The permission given to all users are rwxrwxrwx, so every user can read, write, and execute files.
