@@ -1,0 +1,32 @@
+1. Searches for all regular files in the '/etc' directory and its subdirectories. It redirects its std output to one.txt and redirects std errors to two.txt
+one.txt contains all regular files from the /etc directory.
+two.txt would contain any errors
+
+2. The commands used to find this was cut -d ',' -f 5,4 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+the cut command extracts the 4th and 5th columns
+sort sorts the extracted data
+uniq counts the number of unique occurances
+sort -nr sorts the counts in descending order
+head selects the top 3 combinations 
+output:
+12 2014 Aug
+13 2014 Jul
+15 2006 Mar
+
+3. ps -u $USER
+    PID TTY          TIME CMD
+2060795 ?        00:23:33 systemd
+2060797 ?        00:00:00 (sd-pam)
+2065462 ?        00:00:00 ssh-agent
+3957591 ?        00:00:00 sshd
+3957592 pts/17   00:00:00 bash
+3960269 pts/17   00:00:00 ps
+
+4. The difference is that in one of the terminals vi is not running and in another vi is still running.
+
+5. The init process in Linux is the first process started by the kernel during booting. It has precoess ID 1 and serves as the ancestor of all other processes on the system.
+Command: ps -p 1
+    PID TTY          TIME CMD
+      1 ?        14:10:51 systemd
+
+6. ps aux is used to display information about all processes currently running on the system. It provides a detailed list of processes, including those owned by all users, along with additional information such as ownership, and command details. This command is useful for system monitoring and troubleshooting tasks.
