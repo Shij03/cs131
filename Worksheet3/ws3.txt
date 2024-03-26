@@ -1,0 +1,9 @@
+Task 1:
+United States,9200000
+India,9000000
+United Kingdom,2000000
+
+Task 2:
+162000000 Cocomelon_-_Nursery_Rhymes Education
+96000000 WEE Sports
+166000000 MrBeast Entertainment

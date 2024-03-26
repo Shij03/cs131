@@ -1,0 +1,425 @@
+    1  pwd
+    2  passwd
+    3  cd ~/.ssh && ssh-keygen
+    4  mkdir ~/.ssh
+    5  cd ~/.ssh && ssh-keygen
+    6  cat id_rsa.pub
+    7  cd ~/.ssh && ssh-keygen
+    8  clear
+    9  cd
+   10  clear
+   11  cd ~/.ssh && ssh-keygen
+   12  cat id_rsa.pub
+   13  cd ~/.ssh && ssh-keygen
+   14  clear
+   15  ls
+   16  mkdir class1
+   17  ls
+   18  rmdir class1
+   19  ls
+   20  vi sample.txt
+   21  cat smaple.txt
+   22  vi sample.txt
+   23  cat sample.txt 
+   24  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   25  ls
+   26  clear
+   27  vi spotify-2023.csv 
+   28  vi spotify-2023.csv 
+   29  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   30  ls
+   31  rm spotify-2023.csv.1
+   32  ls
+   33  clear
+   34  cd /.ssh
+   35  ls
+   36  pwd
+   37  cd ~/.ssh
+   38  pwd
+   39  ssh-keygen
+   40  cat id_rsa.pub
+   41  clear
+   42  git clone https://github.com/Shij03/cs131.git
+   43  cd cs131
+   44  mkdir Worksheet1
+   45  cd Worksheet1
+   46  quit
+   47  :q
+   48  clear
+   49  cd cs131/Worksheet1
+   50  wget www.github.com
+   51  history > cmds.log
+   52  git init
+   53  git add cmds.log
+   54  git commit
+   55  git config --global user.email "justin.shi@sjsu.edu"
+   56  git config --global user.email "justinshi00@gmail.com"
+   57  git config --global user.name "Justin"
+   58  wget www.github.com
+   59  history > cmds.log
+   60  cd cs131/Worksheet1
+   61  git init
+   62  git add cmds.log
+   63  git commit -m "cmds.log"
+   64  git remote add origin https://github.com/Shij03/cs131.git
+   65  git push -u origin master
+   66  cd ~
+   67  ls
+   68  rm cmds.logs
+   69  cat cmds.log
+   70  rmdir cmds.log
+   71  rm cmds.log
+   72  ls
+   73  cd cs131
+   74  ls
+   75  cat Worksheet1
+   76  cd Worksheet1
+   77  ls
+   78  cat cmds.log
+   79  rm cmds.log
+   80  wget www.github.com
+   81  git clone https://github.com/Shij03/cs131.git
+   82  cd cs131
+   83  mkdir Worksheet1
+   84  cd Worksheet1
+   85  history > cmds.log
+   86  git add cmds.log
+   87  git commit -m "cmds log"
+   88  git push origin main
+   89  git branch
+   90  git push origin master
+   91  git credential reject
+   92  git add cmds.log
+   93  git commit
+   94  git commit -m "cmds log"
+   95  git add cmds.log
+   96  git commit -m "cmds log"
+   97  git add
+   98  git add cmds.log
+   99  git commit -m "command history"
+  100  wget www.github.com
+  101  git add cmds.log
+  102  cd cs131/Worksheet1
+  103  git add cmds.log
+  104  git commit -m "command history"
+  105  ls
+  106  rm -a
+  107  rm cmds.log
+  108  rm index.hmtl
+  109  rm index.html
+  110  ls
+  111  cd
+  112  cd cs131
+  113  ls
+  114  cd
+  115  ls
+  116  rm index.html
+  117  rm index.html.2
+  118  rm index.html.1
+  119  ls
+  120  wget www.github.com
+  121  cd cs131/Worksheet1
+  122  history > cmds.log
+  123  git add cmds.log
+  124  git commit -m "history command"
+  125  git push origin main
+  126  git branch
+  127  git push origin master
+  128  git remote show origin
+  129  git checkout main
+  130  git checkout master
+  131  git branch -r
+  132  git branch -m master main
+  133  git push -u origin main
+  134  git commit -m "history command"
+  135  git push origin main
+  136  ls
+  137  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  138  ls
+  139  cd cs131
+  140  mkdir Worksheet2
+  141  ls
+  142  grep "United States" "Global YouTube Statistics.csv" > Worksheet2/US_Youtubers.txt
+  143  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  144  grep "United States" "Global YouTube Statistics.csv" > Worksheet2/US_Youtubers.txt
+  145  grep "Music" "Global YouTube Statistics.csv" > Worksheet2/Music.txt
+  146  wc -l < Worksheet2/Music.txt > Worksheet2/counts.txt
+  147  wc -w < Worksheet2/Music.txt >> Worksheet2/counts.txt
+  148  vi Worksheet2/counts.txt
+  149  history > Worksheet2/cmds.log
+  150  cd Worksheet2
+  151  git init
+  152  git add counts.txt cmds.log
+  153  git commit -m "count and cmd log"
+  154  git remote add origin https://github.com/Shij03/cs131.git
+  155  git push -u origin main
+  156  git push -u origin master
+  157  git init
+  158  git add counts.txt cmds.log
+  159  git commit -m "count and cmd log"
+  160  git remote add origin https://github.com/Shij03/cs131.git
+  161  git push -u origin main
+  162  git branch
+  163  git branch -m main
+  164  git remote set-url origin https://github.com/Shij03/cs131.git
+  165  git push -u origin main
+  166  git remote -v
+  167  git clone Username for 'https://github.com': Shij03
+  168  Password for 'https://Shij03@github.com': 
+  169  remote: Permission to Shij03/cs131.git denied to Shij03.
+  170  git init
+  171  gi add counts.txt cmds.log
+  172  git add counts.txt cmds.log
+  173  git commit -m "count and cmd file"
+  174  git push
+  175  git push --set-upstream origin main
+  176  git push -u origin master
+  177  clear
+  178  ls
+  179  git init
+  180  git add counts.txt cmds.log
+  181  git commit -m "count and cmd file"
+  182  git remote add origin https://github.com/Shij03/cs131.git
+  183  git push -u origin main
+  184  git remote set-url origin https://Shij03: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@github.com/Shij03/cs131.git
+  185  git push
+  186  git push --set-upstream origin main
+  187  git pull origin main
+  188  git push
+  189  cd cs131/Worksheet2
+  190  ls
+  191  cp /counts.txt ~/justinshi/Documents
+  192  cp Worksheet2/counts.txt ~/justinshi/Documents
+  193  cp Worksheet2 ~/justinshi/Documents
+  194  cd cs131
+  195  cd
+  196  cd cs131
+  197  cp Worksheet2 ~/justinshi/Documents
+  198  cp -r Worksheet2 ~/justinshi/Documents
+  199  git --version
+  200  git remote -v
+  201  cd cs131
+  202  git remote -v
+  203  ls
+  204  cd cs131
+  205  ls
+  206  ls Worksheet2
+  207  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  208  git commit -m "count and cmd file"
+  209  git push
+  210  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  211  git status
+  212  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  213  git commit -m "count and cmd file"
+  214  cd Worksheet2
+  215  ls
+  216  cat counts.txt
+  217  cat cmds.log
+  218  ls
+  219  cd
+  220  cd cs131
+  221  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  222  git commit -m "count and cmds file"
+  223  git add Worksheet2/counts.txt
+  224  git commit -m "count and cmds file"
+  225  cd Worksheet2
+  226  git add counts.txt cmds.log
+  227  git commit -m "count and cmds file"
+  228  cd cs131
+  229  cd
+  230  cd cs131
+  231  git reset
+  232  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  233  git status
+  234  cd Worksheet2
+  235  ls
+  236  rm cmds.log
+  237  rm counts.txt
+  238  ls
+  239  rm *
+  240  ls
+  241  cd cs131
+  242  ls
+  243  grep "United States" "Global YouTube Statistics.csv" > US_YouTube.txt
+  244  grep "Music" "Global YouTube Statistics.csv" > Music.txt
+  245  wc -l Music.txt > counts.txt
+  246  wc -w Music.txt >> counts.txt
+  247  vi counts.txt
+  248  history > cmds.log
+  249  mv counts.txt cmds.log Worksheet2
+  250  ls Worksheet2
+  251  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  252  git commit -m "count and cmds file"
+  253  git push
+  254  cd Worksheet2
+  255  git add counts.txt cmds.log
+  256  git commit -m "count and cmds file"
+  257  git push
+  258  git push -u origin main
+  259  git push -u origin master
+  260  git push -u origin main
+  261  git push --set-upstream origin main
+  262  cd 
+  263  cd cs131
+  264  git fetch
+  265  git merge origin/main
+  266  git push
+  267  git merge origin/main
+  268  cd Worksheet2
+  269  git push
+  270  git fetch
+  271  git push
+  272  ls cs131
+  273  cd /
+  274  cd cs131
+  275  cd
+  276  cd cs131
+  277  ls
+  278  ls cmds.log
+  279  cat cmds.log
+  280  cd
+  281  cd cs131
+  282  cp cs131/Worksheet2/counts.txt cs131
+  283  ls
+  284  wc -l Music.txt > counts.txt
+  285  wc -w Music.txt >> counts.txt
+  286  vi countx.txt
+  287  vi counts.txt
+  288  history > cmds.log
+  289  cat cmds.log
+  290  git add counts.txt cmds.log
+  291  git commit -m "count and cmds file"
+  292  git push
+  293  ssh-keygen -t rsa -b 4096 -C "justinshi00@gmail.com"
+  294  ssh-add ~/.ssh/id_rsa
+  295  eval "$(ssh-agent -s)"
+  296  ssh-add ~/.ssh/id_rsa
+  297  pbcopy < ~/.ssh/id_rsa.pub
+  298  cat ~/.ssh/id_rsa.pub
+  299  git remote set-url origin git@github.com:Shij03/cs131.git
+  300  git push
+  301  ls Worksheet2
+  302  cd cs131
+  303  mkdir Assignment1
+  304  cd Assignment1
+  305  echo $SHELL > assignment1.txt
+  306  echo $HOME > assignment1.txt
+  307  id
+  308  echo $SHELL > assignment1.txt
+  309  echo $HOME >> assignment1.txt
+  310  id >> assignment1.txt
+  311  mkdir myDir
+  312  chmod -w myDir
+  313  cd myDir
+  314  cd -
+  315  chmod 555 myDir
+  316  cd myDir
+  317  cd -
+  318  ls -l myDir
+  319  touch myDir/testfile.txt
+  320  mkdir myDir2
+  321  mkdir myDir3
+  322  touch myDir2/myFile.txt
+  323  mv myDir2/myFile.txt myDir3
+  324  ls myDir3
+  325  free -m >> assignment1.txt
+  326  free -m
+  327  ls -l /etc/os-release
+  328  ls -l /etc/os-release >> assignment1.txt
+  329  history > cmds.log
+  330  git add assignment1.txt cmds.log
+  331  git commit -m "assignment1 and cmds log file"
+  332  git push
+  333  cd cs131/Assignment1
+  334  vi assignment1.txt 
+  335  git add assignment1.txt
+  336  git commit -m "assignment1.txt updated"
+  337  git push
+  338  cd cs131
+  339  mkdir Assignment2
+  340  cd Assignment2
+  341  find /etc -type f > one.txt 2>two.txt
+  342  cd ~
+  343  cd cs131
+  344  ls
+  345  cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+  346  cd Assignment2
+  347  find /etc -type f > one.txt 2>two.txt > Assignment2.txt
+  348  cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3 >> Assignment2.txt
+  349  cd cs131
+  350  cs /cs131
+  351  cs ~/cs131
+  352  cd ~/cs131
+  353  cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3 >> Assignment2/Assignment2.txt
+  354  ps -u $USER >> Assignment2/Assignment2.txt
+  355  ps -p 1 >> Assignment2/Assignment2.txt
+  356  ps aux >> Assignment2/Assignment2.txt
+  357  cd Assignment2
+  358  vi Assignment2.txt
+  359  cd ~/cs131
+  360  cut -d ',' -f 5,4 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3 >> Assignment2/Assignment2.txt
+  361  cd Assignment2
+  362  vi Assignment2.txt
+  363  ps -u $USER
+  364  vi file.txt
+  365  ps -u $USER > file.txt
+  366  vi file.txt
+  367  ps -u $USER >> file.txt
+  368  vi file.txt
+  369  ps -u $USER >> file.txt
+  370  vi file.txt
+  371  ps -p 1
+  372  vi file.txt
+  373  cd cs131
+  374  cd Assignment2
+  375  vi Assignment2.txt 
+  376  git add Assignment2.txt cmds.log
+  377  cd ~/cs131
+  378  cp cmds.log /Assignment2
+  379  ls Assignment2
+  380  git status
+  381  ls -l cmds.log
+  382  cd Assignment2
+  383  git add Assignment2.txt
+  384  got commit -m "Adding assignment2.txt file"
+  385  git commit -m "Adding assignment2.txt file"
+  386  git push
+  387  git add cmds.log
+  388  history > cmds.log
+  389  git add Assignment2.txt cmds.log
+  390  git commit -m "Adding assignment2.txt and cmds.log file"
+  391  git push
+  392  cd cs131
+  393  mkdir Worksheet3
+  394  cd Worksheet3
+  395  cd ~/cs131
+  396  ls
+  397  vi Global\ YouTube\ Statistics.csv 
+  398  grep -e 'United States|United Kingdom|India' "Global YouTube Statistics.csv" > /Worksheet3/monthlyEarning
+  399  grep -e 'United States|United Kingdom|India' "Global YouTube Statistics.csv" > monthlyEarning.txt
+  400  vi monthlyEarning.txt 
+  401  vi Global\ YouTube\ Statistics.csv 
+  402  vi monthlyEarning.txt 
+  403  grep -E 'United States|United Kingdom|India' "Global YouTube Statistics.csv" > test.txt
+  404  vi test.txt
+  405  sort -t ',' -k 5 -nr test.txt
+  406  head -n 1 test.txt
+  407  grep -E 'Sports|Education|Entertainment' "Global YouTube Statistics.csv" > category.txt
+  408  sort -t ',' -k 7 -nr category.txt
+  409  head -n 1 category.txt 
+  410  cp monthlyEarning.txt > ws3.txt
+  411  cp monthlyEarning.txt  ws3.txt
+  412  ls
+  413  mv ws3.txt /Worksheet3
+  414  mv ws3.txt /Worksheet3/
+  415  mv ws3.txt /Worksheet3/ws3.txt
+  416  cp ws3.txt /Worksheet3/ws3.txt
+  417  grep -E 'United States|United Kingdom|India' "Global YouTube Statistics.csv" > /Worksheet3/ws3.txt
+  418  vi ws3.txt
+  419  history > cmds.log
+  420  ls
+  421  ls Assignment3
+  422  ls
+  423  ls Assignment2
+  424  cd Worksheet3
+  425  history > cmds.log
